@@ -7,7 +7,7 @@ while True:
     password = input('password\n> ')
     if autorizare(user, password) == True:
         menu.meniu_principal()
-    elif autorizare(user, password) == 'nu_exista':
+    elif autorizare(user, password) == 'nu exista':
         print('Utilizatorul nu exista, incearca din nou')
         continue
     elif autorizare(user, password) == 'parola_gresita':
